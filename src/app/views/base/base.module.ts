@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 
-import { CardsComponent } from './cards.component';
+import { ResumeReportsComponent } from './resume-reports.component';
 
 // Forms Component
 import { FormsComponent } from './forms.component';
@@ -63,7 +63,7 @@ import { BaseRoutingModule } from './base-routing.module';
     TooltipModule.forRoot()
   ],
   declarations: [
-    CardsComponent,
+    ResumeReportsComponent,
     FormsComponent,
     SwitchesComponent,
     TablesComponent,
